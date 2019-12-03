@@ -1,0 +1,12 @@
+ <html>
+   <head>
+        <title>pelajaran php kedua</title>
+   </head>
+   <body>
+       <?php
+       $nama = "budi";
+
+       echo $nama;
+      ?>
+  </body>
+<html>

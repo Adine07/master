@@ -1,0 +1,140 @@
+#header{
+	position:fixed;left:0px;right:0px;
+	height:60px;background-color:rgba(26, 25, 54);
+	box-shadow:2px 3px 0px black;
+}
+#container{
+	width:100%;
+	height:650px;
+	background-color:;
+	position:relative;
+}
+
+#kotak1{
+	width:20%;
+	height:220px;
+	border-radius:15px;
+	position:absolute;top:210px;right:73%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak2{
+	width:20%;
+	height:220px;
+	border-radius:15px;
+	position:absolute;top:210px;right:51%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak3{
+	width:20%;
+	height:220px;
+	border-radius:15px;
+	position:absolute;top:210px;right:29%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak4{
+	width:20%;
+	height:220px;
+	border-radius:15px;
+	position:absolute;top:210px;right:7%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak1:hover{
+	width:21%;
+	height:225px;
+	border-radius:15px;
+	position:absolute;top:205.5px;right:72.5%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak2:hover{
+	width:21%;
+	height:225px;
+	border-radius:15px;
+	position:absolute;top:205.5px;right:51%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak3:hover{
+	width:21%;
+	height:225px;
+	border-radius:15px;
+	position:absolute;top:205.5px;right:29%;
+	box-shadow:2px 2px 5px black;
+}
+
+#kotak4:hover{
+	width:21%;
+	height:225px;
+	border-radius:15px;
+	position:absolute;top:205.5px;right:7%;
+	box-shadow:2px 2px 5px black;
+}
+#isi1{
+	width:100%;height:30%;border-radius:10px 10px 0px 0px;
+	background-color:rgba(26, 25, 54);
+	text-align:center;font-family: 'Ubuntu', sans-serif;font-size:18pt;
+	color:white;
+}
+#isi1 b{
+	position:absolute;top:10%;left:38%;
+}
+
+#isi2{
+	width:100%;height:30%;border-radius:10px 10px 0px 0px;
+	background-color:rgba(26, 25, 54);
+	text-align:center;font-family: 'Ubuntu', sans-serif;font-size:18pt;
+	color:white;
+}
+#isi2 b{
+	position:absolute;top:10%;left:39%;
+}
+#isi3{
+	width:100%;height:30%;border-radius:10px 10px 0px 0px;
+	background-color:rgba(26, 25, 54);
+	text-align:center;font-family: 'Ubuntu', sans-serif;font-size:18pt;
+	color:white;
+}
+#isi3 b{
+	position:absolute;top:10%;left:39%;
+}
+#isi4{
+	width:100%;height:30%;border-radius:10px 10px 0px 0px;
+	background-color:rgba(26, 25, 54);
+	text-align:center;font-family: 'Ubuntu', sans-serif;font-size:18pt;
+	color:white;
+}
+#isi4 b{
+	position:absolute;top:10%;left:45%;
+}
+#footer{
+	text-align:center;font-family: 'Ubuntu', sans-serif;
+	position:absolute;bottom:0px; right:41%;
+	
+}
+#texthead{
+	position:absolute;top:16%;left:12%%;
+	color:white;font-family: 'Clicker Script', cursive;font-size:26pt;
+}
+
+img{
+height:50px;
+margin-left:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

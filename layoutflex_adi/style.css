@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+	display : flex;
+	width : 100%;
+	height : auto;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	flex-wrap : wrap;
+	flex-direction : row;
+	justify-content : space-between; 
+}
+
+#container div {
+	margin : 1%;
+}
+
+#header {
+	background-color : #ccc;
+	width : 100%;
+	height : 17vh;
+	display: flex;
+	padding: 2%;
+	box-sizing: border-box; 
+	position: relative;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#header img {
+	left: 20px;
+	width: 8%;
+	position: absolute; 
+}
+
+#header a {
+	float: right;
+ 	margin-right: 1%;
+ 	text-decoration: none;
+ 	color: black;
+ 	font-weight: 400;
+ 	margin-bottom: 3vh;
+}
+
+#sidebar {
+	background-color : #dddddd;
+	width : 24vw;
+	box-sizing: border-box;
+	height : 800px;
+	float : left;
+	padding: 25px;
+}
+
+#main {
+	width : 70%;
+	height : 1000px;
+	float : right;
+	background-color : #eee;
+	box-sizing: border-box;
+	padding: 3vh 6vh;
+}
+
+#main h2{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 6vh; 
+}
+
+#footer {
+	background-color : #aaaaaa;
+	width: 100%;
+	height : 70px; 
+	margin-bottom: 1vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer p{
+	color: #fff;
+}
+
+
+
+
+
+
